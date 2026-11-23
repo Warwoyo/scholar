@@ -1,0 +1,107 @@
+{
+  "formatVersion": 1,
+  "metadata": {
+    "name": "Scholarship Tracker",
+    "createdAt": "2026-11-23T14:12:36.707Z",
+    "updatedAt": "2026-11-23T14:12:36.707Z"
+  },
+  "columns": [
+    {
+      "id": "name",
+      "label": "Name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "country",
+      "label": "Country",
+      "type": "text",
+      "required": false
+    },
+    {
+      "id": "funding",
+      "label": "Funding",
+      "type": "select",
+      "required": false,
+      "options": [
+        "Fully Funded",
+        "Partially Funded",
+        "Self-Funded",
+        "Other"
+      ]
+    },
+    {
+      "id": "major",
+      "label": "Major",
+      "type": "text",
+      "required": false
+    },
+    {
+      "id": "university",
+      "label": "University",
+      "type": "text",
+      "required": false
+    },
+    {
+      "id": "provider",
+      "label": "Provider",
+      "type": "text",
+      "required": false
+    },
+    {
+      "id": "deadline",
+      "label": "Deadline",
+      "type": "date",
+      "required": false
+    },
+    {
+      "id": "selection_date",
+      "label": "Date Selection",
+      "type": "date",
+      "required": false
+    },
+    {
+      "id": "status",
+      "label": "Apply?",
+      "type": "select",
+      "required": false,
+      "options": [
+        "Belum",
+        "Pending",
+        "Sudah"
+      ],
+      "defaultValue": "Belum"
+    },
+    {
+      "id": "requirements",
+      "label": "Requirements",
+      "type": "long_text",
+      "required": false
+    },
+    {
+      "id": "source",
+      "label": "Source",
+      "type": "url",
+      "required": false
+    },
+    {
+      "id": "notes",
+      "label": "Notes",
+      "type": "long_text",
+      "required": false
+    }
+  ],
+  "view": {
+    "visibleColumnIds": [
+      "name",
+      "country",
+      "funding",
+      "major",
+      "university",
+      "deadline",
+      "selection_date",
+      "status"
+    ]
+  },
+  "records": []
+}
